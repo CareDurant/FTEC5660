@@ -1,0 +1,10 @@
+{
+  "provider": "volcengine",
+  "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+  "model": "ep-20260226144712-mkcds",
+  "n_trials": 2,
+  "baseline_mode": "single_pass",
+  "modified_mode": "self_review",
+  "baseline_prompt": "You are a helpful finance assistant. Give concise answers.",
+  "modified_prompt": "You are a careful finance analyst. First reason silently, then give final answer only. For numeric tasks, output only one final number. For label tasks, output only A/B/C."
+}
